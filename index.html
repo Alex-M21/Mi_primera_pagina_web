@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera pagina web</title>
+    <meta name="description" content="Desarrollador web freelance que ofrece servicios de alta calidad.">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <a href="/"><img src="./alex.jpg" alt="Tu Nombre"></a> <!-- Enlace con la imagen del logotipo -->
+        <h1>Alexander Mejia</h1> <!-- Título principal del sitio web -->
+        <p>Desarrollador Freelancer</p> <!-- Descripción del rol o título -->
+    </header>
+
+    <nav class="navbar"> <!-- Barra de navegación -->
+        <ul>
+            <li><a href="#inicio">Inicio</a></li> <!-- Enlace de navegación a la sección de Inicio -->
+            <li><a href="#portafolio">Portafolio</a></li> <!-- Enlace de navegación a la sección de Portafolio -->
+            <li><a href="#contacto">Contacto</a></li> <!-- Enlace de navegación a la sección de Contacto -->
+        </ul>
+    </nav>
+
+    <section id="inicio"> <!-- Sección "Inicio" con identificador "inicio" -->
+        <h2>Bienvenido a mi sitio web</h2> <!-- Título de la sección de Inicio -->
+        <p>Ofrezco servicios de desarrollo web de alta calidad.</p> <!-- Descripción de los servicios ofrecidos -->
+        <p>
+            En este sitio web, puedes encontrar información sobre mis servicios, mi experiencia y mi portafolio.
+        </p>
+    </section>
+
+    <section id="portafolio"> <!-- Sección "Portafolio" con identificador "portafolio" -->
+        <h2>Mi Portafolio</h2> <!-- Título de la sección de Portafolio -->
+        <ul class="portafolio"> <!-- Lista no ordenada para mostrar proyectos en el portafolio -->
+            <!-- Cada elemento de la lista representa un proyecto -->
+            <li class="col-sm-3">
+                <img src="./ProjectA4.jpg" alt="Proyecto 1"> <!-- Imagen del primer proyecto -->
+                <h3>Proyecto 1</h3> <!-- Título del primer proyecto -->
+                <p>Descripción del proyecto 1</p> <!-- Descripción del primer proyecto -->
+            </li>
+            <li class="col-sm-3">
+                <img src="./ProjectA4_2.jpg" alt="Proyecto 2"> <!-- Imagen del segundo proyecto -->
+                <h3>Proyecto 2</h3> <!-- Título del segundo proyecto -->
+                <p>Descripción del proyecto 2</p> <!-- Descripción del segundo proyecto -->
+            </li>
+            <li class="col-sm-3">
+                <img src="./ProjectA4_3.jpg" alt="Proyecto 3"> <!-- Imagen del tercer proyecto -->
+                <h3>Proyecto 3</h3> <!-- Título del tercer proyecto -->
+                <p>Descripción del proyecto 3</p> <!-- Descripción del tercer proyecto -->
+            </li>
+        </ul>
+    </section>
+
+    <section id="contacto"> <!-- Sección "Contacto" con identificador "contacto" -->
+        <h2>Contacto</h2> <!-- Título de la sección de Contacto -->
+        <form id="contactForm" method="post" action="enviar.php" enctype="multipart/form-data">
+            <!-- Formulario de contacto -->
+            <div class="input-container">
+                <label for="nombre">Nombre:</label> <!-- Campo para ingresar el nombre -->
+                <input type="text" id="nombre" name="nombre" required> <!-- Entrada de texto para el nombre -->
+            </div>
+            <div class="input-container">
+                <label for="correo">Correo Electrónico:</label> <!-- Campo para ingresar el correo electrónico -->
+                <input type="email" id="correo" name="correo" required> <!-- Entrada de texto para el correo electrónico -->
+            </div>
+            <div class="input-container">
+                <label for="mensaje">Mensaje:</label> <!-- Campo para ingresar un mensaje -->
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea> <!-- Área de texto para el mensaje -->
+            </div>
+            <button type="submit">Enviar</button> <!-- Botón de envío del formulario -->
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Alexander Mejia</p> <!-- Información de derechos de autor -->
+        <p>
+            <center>
+                <a href="https://api.whatsapp.com/send?phone=TUNUMERO" class="social-button">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+                <a href="https://twitter.com/tu-nombre" class="social-button">
+                    <i class="fab fa-twitter"></i> Twitter
+                </a>
+                <a href="https://www.linkedin.com/in/tu-nombre/" class="social-button">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+
+            </center>
+        </p>
+    </footer>
+
+    <script src="scripts.js"></script> <!-- Vinculación de un archivo JavaScript externo -->
+</body>
+</html>

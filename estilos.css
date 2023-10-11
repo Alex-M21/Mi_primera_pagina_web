@@ -1,0 +1,119 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif; /* Fuente de texto utilizada en la página */
+    margin: 0; /* Elimina el margen exterior del cuerpo del documento */
+    padding: 0; /* Elimina el espacio interno del cuerpo del documento */
+    background-color: #f2f2f2; /* Color de fondo gris claro */
+}
+
+header {
+    background-color: #00aae4; /* Fondo celeste del encabezado */
+    color: #fff; /* Color de texto blanco en el encabezado */
+    text-align: center; /* Alineación del texto al centro */
+    padding: 20px; /* Espaciado interno en el encabezado */
+}
+
+nav ul {
+    list-style-type: none; /* Elimina los marcadores de lista en la navegación */
+    margin: 0; /* Elimina el margen exterior de la lista de navegación */
+    padding: 0; /* Elimina el espacio interno de la lista de navegación */
+    text-align: center; /* Alineación del texto de la lista al centro */
+}
+
+nav ul li {
+    display: inline; /* Hace que los elementos de la lista se muestren en línea */
+    margin-right: 20px; /* Agrega un margen derecho entre elementos de la lista */
+}
+
+nav a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces de navegación */
+    color: #000000; /* Color de texto negro para los enlaces de navegación */
+}
+
+section {
+    padding: 40px; /* Espaciado interno en las secciones de contenido */
+}
+
+/* Estilos del formulario de contacto */
+form {
+    max-width: 400px; /* Establece el ancho máximo del formulario a 400 píxeles */
+    margin: 0 auto; /* Centra el formulario horizontalmente en la página */
+}
+
+.input-container {
+    margin-bottom: 20px; /* Agrega un margen inferior entre contenedores de entrada */
+}
+
+label {
+    display: block; /* Hace que las etiquetas de entrada se muestren en un bloque separado */
+    font-weight: bold; /* Establece el texto de la etiqueta en negrita */
+    margin-bottom: 5px; /* Agrega un pequeño margen inferior entre etiquetas y entradas */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; /* Establece el ancho de los campos de entrada al 100% del contenedor */
+    padding: 10px; /* Agrega un espacio interno de 10 píxeles en los campos de entrada */
+    margin-bottom: 10px; /* Agrega un margen inferior entre campos de entrada */
+    border: 1px solid #ccc; /* Agrega un borde de 1 píxel con color gris claro */
+    border-radius: 5px; /* Aplica bordes redondeados a los campos de entrada */
+}
+
+button[type="submit"] {
+    background-color: #008000; /* Fondo verde oscuro para el botón de envío */
+    color: #fff; /* Color de texto blanco para el botón de envío */
+    padding: 10px 20px; /* Espaciado interno del botón de envío */
+    border: none; /* Elimina el borde del botón */
+    border-radius: 5px; /* Aplica bordes redondeados al botón */
+    cursor: pointer; /* Cambia el cursor a una mano para indicar que es un botón */
+    font-weight: bold; /* Establece el texto del botón en negrita */
+}
+
+button[type="submit"]:hover {
+    background-color: #555; /* Cambia el color de fondo del botón al pasar el mouse */
+}
+
+/* Menú de navegación responsive */
+.navbar {
+    display: flex; /* Establece la visualización de los elementos de navegación como una fila */
+    flex-direction: column; /* Cambia la dirección de los elementos a una columna en pantallas pequeñas */
+}
+
+.navbar ul {
+    list-style-type: none; /* Elimina los marcadores de lista en el menú de navegación */
+    margin: 0; /* Elimina el margen exterior de la lista de navegación */
+    padding: 0; /* Elimina el espacio interno de la lista de navegación */
+}
+
+.navbar ul li {
+    display: block; /* Hace que los elementos del menú de navegación se muestren en bloque */
+}
+
+.navbar ul li a {
+    text-align: center; /* Alineación del texto al centro en el menú de navegación */
+    font-size: 1.5em; /* Tamaño de fuente aumentado en el menú de navegación */
+}
+
+/* Estilos de los botones sociales */
+.social-button {
+    display: inline-block; /* Hace que los botones sociales se muestren en línea */
+    margin-right: 10px; /* Agrega un margen derecho entre los botones sociales */
+    text-decoration: none; /* Elimina el subrayado de los botones sociales */
+    padding: 5px 10px; /* Espaciado interno de los botones sociales */
+    border: 1px solid #ccc; /* Agrega un borde de 1 píxel con color gris claro */
+    border-radius: 5px; /* Aplica bordes redondeados a los botones sociales */
+    background-color: #f0f0f0; /* Color de fondo gris claro */
+    color: #333; /* Color de texto oscuro */
+}
+
+/* Estilos para los íconos de Font Awesome */
+.social-button i {
+    margin-right: 5px; /* Agrega un margen derecho entre los íconos y el texto en los botones sociales */
+}
+
+/* Estilos al pasar el mouse sobre los botones sociales */
+.social-button:hover {
+    background-color: #333; /* Cambia el color de fondo al pasar el mouse */
+    color: #fff; /* Cambia el color de texto al pasar el mouse */
+}
