@@ -1,4 +1,9 @@
 /* Estilos generales */
+.mifoto{
+    width: 50%;
+    height: 50%;
+}
+
 body {
     font-family: Arial, sans-serif; /* Fuente de texto utilizada en la página */
     margin: 0; /* Elimina el margen exterior del cuerpo del documento */
