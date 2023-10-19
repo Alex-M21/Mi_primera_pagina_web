@@ -1,0 +1,14 @@
+#miHeader {
+    background-image: url('https://i.pinimg.com/736x/77/42/0d/77420df3f9e33db5b79ee25455d3340e.jpg');
+    background-size: cover; /* Para ajustar la imagen al tamaño del header */
+    background-position: center; /* Para centrar la imagen en el header */
+}
+body{
+    background-image: url('https://img.freepik.com/vector-gratis/estilo-fondo-textura-elegante-blanco_23-2148432200.jpg?w=1380&t=st=1697086304~exp=1697086904~hmac=61b9f2c845ab7edaedd6c1db96fc8f62e367670d6fb8de8bfb2d45740c6d1be6');
+    background-size: cover; /* Para ajustar la imagen al tamaño del header */
+    background-position: center; /* Para centrar la imagen en el header */
+}
+#miFoto{
+    width: 25%;
+    height: 25%;
+}

@@ -1,37 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primera pagina web</title>
     <meta name="description" content="Desarrollador web freelance que ofrece servicios de alta calidad.">
-
+    <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
-    <!-- Agrega los enlaces a Bootstrap y Font Awesome -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <!-- Agrega los scripts de jQuery, Popper.js y Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-
 </head>
-
 <body>
-    <header class="bg-primary text-white text-center py-4" id="miHeader">
-        <a href="/"><img src="./alex.jpg" alt="Tu foto de perfil"></a> <!-- Enlace con la imagen del logotipo -->
+    <header>
+        <a href="/"><img src="./alex.jpg" alt="Tu Nombre" id="miFoto"></a> <!-- Enlace con la imagen del logotipo -->
         <h1>Alexander Mejia</h1> <!-- Título principal del sitio web -->
         <p>Desarrollador Freelancer</p> <!-- Descripción del rol o título -->
     </header>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light"> <!-- Barra de navegación -->
+    <nav class="navbar"> <!-- Barra de navegación -->
         <ul>
             <li><a href="#inicio">Inicio</a></li> <!-- Enlace de navegación a la sección de Inicio -->
             <li><a href="#portafolio">Portafolio</a></li> <!-- Enlace de navegación a la sección de Portafolio -->
             <li><a href="#contacto">Contacto</a></li> <!-- Enlace de navegación a la sección de Contacto -->
         </ul>
     </nav>
-
 
     <section id="inicio"> <!-- Sección "Inicio" con identificador "inicio" -->
         <h2>Bienvenido a mi sitio web</h2> <!-- Título de la sección de Inicio -->
@@ -40,70 +30,8 @@
             En este sitio web, puedes encontrar información sobre mis servicios, mi experiencia y mi portafolio.
         </p>
     </section>
-    <!---Agregar algun componenete con bootstrap de preferencia algun video-->
+    <!---Agregar algun componenete con bootstrap-->
 
-    <br>
-
-    
-    <div class="containter text-center">
-        <div id="carouselExampleDark" class="carousel carousel-dark slide">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="10000">
-                <img src="https://blog.vantagecircle.com/content/images/2022/04/Improving-Teamwork-in-the-workplace.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
-                  <p>Some representative placeholder content for the first slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item" data-bs-interval="2000">
-                <img src="https://www.expacioweb.com/wp-content/uploads/2018/04/autodidacta.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://www.rafaelurbinadevpro.com/static/c8ab346c3e93fee1421996692dfdcc0d/40f16/AUTOLEARNING.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-    
-          <br>
-          <div>
-    
-          </div>
-
-    </div>
-    <br>
-    <!--Ejemplo de card-->
-    <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-   
-   
-      <br>
     <section id="portafolio"> <!-- Sección "Portafolio" con identificador "portafolio" -->
         <h2>Mi Portafolio</h2> <!-- Título de la sección de Portafolio -->
         <ul class="portafolio"> <!-- Lista no ordenada para mostrar proyectos en el portafolio -->
@@ -128,7 +56,7 @@
 
     <section id="contacto"> <!-- Sección "Contacto" con identificador "contacto" -->
         <h2>Contacto</h2> <!-- Título de la sección de Contacto -->
-        <form id="contactForm">
+        <form id="contactForm" method="post" action="enviar.php" enctype="multipart/form-data">
             <!-- Formulario de contacto -->
             <div class="input-container">
                 <label for="nombre">Nombre:</label> <!-- Campo para ingresar el nombre -->
@@ -136,13 +64,11 @@
             </div>
             <div class="input-container">
                 <label for="correo">Correo Electrónico:</label> <!-- Campo para ingresar el correo electrónico -->
-                <input type="email" id="correo" name="correo" required>
-                <!-- Entrada de texto para el correo electrónico -->
+                <input type="email" id="correo" name="correo" required> <!-- Entrada de texto para el correo electrónico -->
             </div>
             <div class="input-container">
                 <label for="mensaje">Mensaje:</label> <!-- Campo para ingresar un mensaje -->
-                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
-                <!-- Área de texto para el mensaje -->
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea> <!-- Área de texto para el mensaje -->
             </div>
             <button type="submit">Enviar</button> <!-- Botón de envío del formulario -->
         </form>
@@ -168,5 +94,4 @@
 
     <script src="scripts.js"></script> <!-- Vinculación de un archivo JavaScript externo -->
 </body>
-
 </html>
